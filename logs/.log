@@ -1,0 +1,14 @@
+2025-11-07 23:42:15,219:INFO:Ingested begin_inventory.csv into table begin_inventory
+2025-11-07 23:42:15,219:INFO:Time taken to ingest begin_inventory.csv: 0.025028800964355467 minutes
+2025-11-07 23:42:16,978:INFO:Ingested end_inventory.csv into table end_inventory
+2025-11-07 23:42:16,978:INFO:Time taken to ingest end_inventory.csv: 0.05434374411900838 minutes
+2025-11-07 23:42:46,743:INFO:Ingested purchases.csv into table purchases
+2025-11-07 23:42:46,744:INFO:Time taken to ingest purchases.csv: 0.5504310528437296 minutes
+2025-11-07 23:42:46,939:INFO:Ingested purchase_prices.csv into table purchase_prices
+2025-11-07 23:42:46,939:INFO:Time taken to ingest purchase_prices.csv: 0.5536923845609029 minutes
+2025-11-07 23:47:10,414:INFO:Ingested sales.csv into table sales
+2025-11-07 23:47:10,425:INFO:Time taken to ingest sales.csv: 4.9451223611831665 minutes
+2025-11-07 23:47:11,501:INFO:Ingested vendor_invoice.csv into table vendor_invoice
+2025-11-07 23:47:11,501:INFO:Time taken to ingest vendor_invoice.csv: 4.963059099515279 minutes
+2025-11-07 23:47:11,501:INFO:All files ingested successfully.
+2025-11-07 23:47:11,501:INFO:Total time taken to ingest all files: 4.963059941927592 minutes
