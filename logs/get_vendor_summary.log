@@ -1,0 +1,33 @@
+2025-11-22 20:43:51,106:INFO:Database connection established.
+2025-11-22 20:43:51,106:INFO:Creating vendor sales summary table.
+2025-11-22 20:44:23,197:INFO:Vendor_sales_summary executed in 32.09035563468933 seconds
+2025-11-22 20:44:23,197:INFO:   VendorNumber  ... avg_freight_cost
+0             2  ...         0.110898
+1             2  ...         0.110898
+2            60  ...         0.078518
+3            60  ...         0.078518
+4           105  ...         0.192555
+
+[5 rows x 14 columns]
+2025-11-22 20:44:23,208:INFO:Cleaning vendor sales summary table.
+2025-11-22 20:44:23,217:INFO:Data cleaning executed in 0.00886678695678711 seconds
+2025-11-22 20:44:23,221:INFO:   VendorNumber  ... avg_freight_cost
+0             2  ...         0.110898
+1             2  ...         0.110898
+2            60  ...         0.078518
+3            60  ...         0.078518
+4           105  ...         0.192555
+
+[5 rows x 14 columns]
+2025-11-22 20:44:23,230:INFO:Adding metrics to vendor sales summary table.
+2025-11-22 20:44:23,233:INFO:Metrics addition executed in 0.0019125938415527344 seconds
+2025-11-22 20:44:23,233:INFO:   VendorNumber  ... stock_turnover_ratio
+0             2  ...             2.250000
+1             2  ...             0.075000
+2            60  ...             1.205128
+3            60  ...             0.838703
+4           105  ...             1.000000
+
+[5 rows x 17 columns]
+2025-11-22 20:44:23,249:INFO:Ingesting vendor sales summary table into database.
+2025-11-22 20:44:23,306:INFO:Vendor sales summary table ingested successfully.
